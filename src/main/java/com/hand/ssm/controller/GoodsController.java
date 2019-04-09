@@ -16,6 +16,11 @@ public class GoodsController {
 	
 	@Autowired
 	GoodsDao goodsDao;
+
+	@RequestMapping("/")
+	public String homePage(){
+		return "index";
+	}
 	
 	@RequestMapping("/good")
 	public String getGood(ModelAndView modelAndView, HttpServletRequest request, HttpServletResponse response){
