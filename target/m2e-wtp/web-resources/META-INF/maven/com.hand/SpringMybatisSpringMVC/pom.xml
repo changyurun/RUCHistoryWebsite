@@ -9,7 +9,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<spring.version>4.3.3.RELEASE</spring.version>
+		<spring.version>4.3.18.RELEASE</spring.version>
 		<mybatis.version>3.4.1</mybatis.version>
 	</properties>
 
@@ -121,7 +121,7 @@
 		<dependency>
 			<groupId>com.mchange</groupId>
 			<artifactId>c3p0</artifactId>
-			<version>0.9.5.2</version>
+			<version>0.9.5.3</version>
 		</dependency>
 
 	</dependencies>
