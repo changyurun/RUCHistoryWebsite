@@ -27,8 +27,9 @@ public class GoodsController {
 		long id = Long.valueOf(request.getParameter("id"));
 		
 		Goods goods = goodsDao.getGoodByPrimaryKey(id);
+		System.out.println(goods.getName());
 		modelAndView.addObject("good", goods);
-		return "success";
+		return "index";
 	}
 
 }

@@ -10,13 +10,13 @@ server:
 spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
-    driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test?characterEncoding=utf8
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
-    password: root
+    password: 67529564bbBB!!
     initialSize: 1
     minIdle: 3
     maxActive: 20
-    # 配置获取连接等待超时的时间
+    # 锟斤拷锟矫伙拷取锟斤拷锟接等达拷锟斤拷时锟斤拷时锟斤拷
     maxWait: 60000
 

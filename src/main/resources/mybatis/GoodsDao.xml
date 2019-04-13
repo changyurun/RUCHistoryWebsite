@@ -2,7 +2,13 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"   
 "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.hand.ssm.dao.GoodsDao">
+	<resultMap id="GoodsMap" type="com.hand.ssm.dto.Goods">
+    	<id column="id" jdbcType="INT" property="id" />
+    	<result column="name" jdbcType="VARCHAR" property="name" />
+    	<result column="price" jdbcType="FLOAT" property="price" />
+    	<result column="quantity" jdbcType="INT" property="quantity" />
+  	</resultMap>
 	<select id="getGoodByPrimaryKey" parameterType="com.hand.ssm.dto.Goods" resultType="com.hand.ssm.dto.Goods">
-		select * from goods where id = #{id}
+		select * from goods where id = #{id} 
 	</select>
 </mapper>
