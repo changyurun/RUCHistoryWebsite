@@ -19,4 +19,5 @@ spring:
     maxActive: 20
     # ���û�ȡ���ӵȴ���ʱ��ʱ��
     maxWait: 60000
+  spring.thymeleaf.mode: LEGACYHTML5
 
