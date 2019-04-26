@@ -89,7 +89,7 @@ a:active, a:focus {
 		  color:black;
 		  margin-left:22px;
 		  padding:48px 14px;}			  
-.nav_but:hover{ background:#005e11;
+.nav_but:hover{ background: #5e0b0f;
                 color:white;}
 .nav_slide{ width:150px; 
             position:absolute;
@@ -114,7 +114,7 @@ a:active, a:focus {
 				 right:-31px;
 				 top:20px;
 				 display:none;}			  			
-.nav_slide a:hover{ color:#005e11;
+.nav_slide a:hover{ color:#5e0b0f;
                       background:none;}				
 .nav_slide a:hover span{ display:block;}													   							 			   
 /*头部结束*/
@@ -124,7 +124,7 @@ a:active, a:focus {
 /*数字按钮样式*/
 .banner_box .num { overflow:hidden; height: 25px; position: absolute; bottom:10px; right:24%; zoom:1; z-index:3 }
 .banner_box .num li { width: 20px; height: 20px; line-height: 20px; text-align: center; font-weight: 400; font-family: "微软雅黑", Arial; color: #FFFFFF; background: #afaeae; margin-right: 10px; border-radius:50%; cursor:pointer; float: left; }
-.banner_box .num li.on { background: #005e11; } /*当前项*/
+.banner_box .num li.on { background: #5e0b0f; } /*当前项*/
 
 /*上一个  下一个*/
 .banner_box .prev,
@@ -139,7 +139,7 @@ a:active, a:focus {
 /*数字按钮样式*/
 .banner_box1 .num { overflow:hidden; height: 25px; position: absolute; bottom:10px; right:24%; zoom:1; z-index:3 }
 .banner_box1 .num li { width: 20px; height: 20px; line-height: 20px; text-align: center; font-weight: 400; font-family: "微软雅黑", Arial; color: #FFFFFF; background: #afaeae; margin-right: 10px; border-radius:50%; cursor:pointer; float: left; }
-.banner_box1 .num li.on { background: #005e11; } /*当前项*/
+.banner_box1 .num li.on { background: #5e0b0f; } /*当前项*/
 
 /*上一个  下一个*/
 .banner_box1 .prev,
@@ -173,7 +173,7 @@ a:active, a:focus {
 						 -webkit-transition:All 1s ease-in-out;   
 						 -moz-transition:All 1s ease-in-out;    
 						 -o-transition:All 1s ease-in-out;}
-.content_box_top li:hover img{ border:1px solid #005e11;
+.content_box_top li:hover img{ border:1px solid #5e0b0f;
 							   transform:rotateY(360deg);
 							   -webkit-transform:rotateY(360deg);
 							   -moz-transform:rotateY(360deg);
@@ -181,7 +181,7 @@ a:active, a:focus {
 							   -ms-transform:rotateY(360deg);}		  				  
 .obj_title{ font-size:16px;
             color:#666666;}
-.content_box_top li:hover .obj_title{ color:#005e11;}			
+.content_box_top li:hover .obj_title{ color:#5e0b0f;}			
 .content_box_top li p{ font-size:12px;
 					   color:#666666;
 					   line-height:18px;}	
@@ -208,7 +208,7 @@ a:active, a:focus {
 				  float:left;
                   width:96px;
 				  height:38px;}	
-.on{ background:#e6e6e6; color:#005e11;}				  				   
+.on{ background:#e6e6e6; color:#5e0b0f;}				  				   
 .info_news_text{ width:560px;
                  height:120px;}
 .info_news_text1{ position:absolute; left:0; top:45px; z-index:30;}
@@ -219,7 +219,7 @@ a:active, a:focus {
 .info_news_text li img{ float:left; margin-top:12px; margin-right:4px}
 .info_news_text li p{ float:left; overflow:hidden; width:542px; font-size:12px;}
 .info_news_text li span.date{ float:right; display:block;}
-.search_obj_title{ font-size:16px; color:#005e11; margin-top:10px;}
+.search_obj_title{ font-size:16px; color:#5e0b0f; margin-top:10px;}
 .search_obj_title span{ font-size:12px; color:#999999; margin-left:8px;}
 .search_obj{width:560px;
             height:160px;}
@@ -246,7 +246,7 @@ a:active, a:focus {
 					float:right;}	
 .jianjie_box{ width:496px;
               height:130px;}					
-.jianjie_title{ font-size:16px; color:#005e11;}
+.jianjie_title{ font-size:16px; color:#5e0b0f;}
 .jianjie_title span{ font-size:12px; color:#999999; margin-left:6px;}
 .jianjie_box1{ width:495px; 
                height:96px; 
@@ -260,13 +260,13 @@ a:active, a:focus {
 				 margin-left:10px; 
                  font-size:12px; 
 				 line-height:24px; }
-.jianjie_box1 a span{ color:#005e11;}
+.jianjie_box1 a span{ color:#5e0b0f;}
 .jianjie_box1 a:hover{ text-decoration:underline;}
 .zichan_box{ width:496px;
              height:103px;
 			 margin-top:40px;}
 .zichan_box p{ font-size:16px; 
-               color:#005e11; 
+               color:#5e0b0f; 
 			   margin-top:20px;}
 .zichan_box span{ font-size:12px; 
                   color:#999999; 
@@ -278,7 +278,7 @@ a:active, a:focus {
 			   margin-top:10px;
 			   line-height:24px;
 			   color:#909090;}
-.zichan_box a span{ color:#005e11;}
+.zichan_box a span{ color:#5e0b0f;}
 .zichan_box a:hover{ text-decoration:underline;}
 .info_search{ width:1200px;
               height:56px;
@@ -296,7 +296,7 @@ a:active, a:focus {
 				  float:left;
 				  margin-left:30px;
 				  color:#727272;}
-.info_search_r a:hover{ text-decoration:underline; color:#005e11;}				  
+.info_search_r a:hover{ text-decoration:underline; color:#5e0b0f;}				  
 .info_search_r a span{ display:block;
                        float:right;
 					   margin-left:8px;}								   		
@@ -318,7 +318,7 @@ a:active, a:focus {
 				 font-size:24px;
 				 text-align:center;
 				 padding-top:20px;
-				 background:#005e11;}			  
+				 background:#5e0b0f;}			  
 .menu_box_title span{ display:block; font-size:20px; color:#008b19;}
 .menu_box1{ width:207px;}	
 .menu_box1 li{ width:207px;
@@ -332,7 +332,7 @@ a:active, a:focus {
                  background:#cacaca;
 				 width:207px;
                  height:46px;}	
-.menu_box1 li a:hover{ background:#005e11; color:white;}
+.menu_box1 li a:hover{ background:#5e0b0f; color:white;}
 .content_boxL{ width:978px; 
                float:right;
 			   overflow:hidden;}
@@ -405,7 +405,7 @@ a:active, a:focus {
 .lyb_box2 li{ margin:10px 0;}
 .lyb_box2 input{ width:426px;}
 .lyb_box2 textarea{ width:600px; height:200px;}
-.lyb_box2 input.submit{ background:#005e11; 
+.lyb_box2 input.submit{ background:#5e0b0f; 
                         color:white; 
 						height:30px; 
 						line-height:30px; 
