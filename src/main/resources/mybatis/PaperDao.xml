@@ -11,4 +11,8 @@
 	<select id="getPaperByPrimaryKey" parameterType="com.hand.ssm.dto.Paper" resultType="com.hand.ssm.dto.Paper">
 		select * from history_paper_info where id = #{id}
 	</select>
+
+	<select id="getPaperByPage" resultType="com.hand.ssm.dto.Paper">
+		select * from history_paper_info LIMIT ${(pageNum-1)*pageSize},#{pageSize}
+	</select>
 </mapper>

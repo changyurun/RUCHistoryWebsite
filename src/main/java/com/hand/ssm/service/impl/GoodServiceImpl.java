@@ -5,7 +5,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import com.hand.ssm.dao.GoodsDao;
 import com.hand.ssm.dto.Goods;
 import com.hand.ssm.service.GoodsService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class GoodServiceImpl implements GoodsService{
 	
 	@Autowired
